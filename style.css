@@ -1,0 +1,96 @@
+body{
+            background-color: rgba(118, 203, 224, 0.89);
+            /* background-image: url('flor.webp'); */
+            background-size: 5%;
+            background-repeat:repeat;
+            margin: 0px;
+
+        }
+
+        .nome{
+            color: rgb(17, 81, 201);
+            background-color: rgba(72, 218, 218, 0.226);
+            font-size: 50px;
+
+        }
+
+        div{
+            background-color:rgb(150, 79, 221);
+            background-color: rgba(224, 150, 218, 0.616);
+            width: 800px;
+            border: 2px solid rgba(16, 16, 236, 0.658);
+            border-radius: 20px;
+            transition: 0.5s;
+        }
+
+        div:hover{
+            width: 900px;
+            transition: 0.5;
+        }
+
+        ul{
+            color: antiquewhite;
+            font-weight: bolder;
+        }
+
+        .estado{
+            color: rgb(0, 139, 74);
+        }
+
+        p {
+            margin-top: 2px;    /* Espaço de cima bem pequeno */
+            margin-bottom: 2px; /* Espaço de baixo bem pequeno */
+        }
+
+        h1{
+            margin-top: 10;
+            margin-bottom: 10px;
+        }
+
+        .box {
+            margin: 10px 0;
+            color: white;
+            background:
+                linear-gradient(
+                90deg,
+                rgb(172, 94, 224) 0%,
+                rgb(253 29 29 / 60%) 60%,
+                rgb(252 176 69 / 100%) 100%
+                ),
+                radial-gradient(circle, white 0%, black 28%);
+            border: 20px dashed rgb(5, 5, 5);
+            padding: 20px;
+            width: 400px;
+            background-origin: padding-box, content-box;
+            background-repeat: no-repeat;
+        }
+
+        /* pseudo-seletor */
+        li:last-child{
+            color: black;
+        }
+
+        li:nth-child(2){
+            color: chartreuse;
+        }
+
+        ol>li:first-child{
+            color: yellow;
+        }
+
+        ul>li:first-child{
+            color: rgb(12, 12, 12);
+        }
+
+        /* *{pega todos
+
+        } */
+
+        li{
+            transition: 0.5s;
+        }
+
+        li:hover{
+            color: rgb(219, 61, 22);
+            transition: 0.5s;
+        }
